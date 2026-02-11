@@ -34,6 +34,6 @@
     };
 };
 
-// &led_strip {
-//     chain-length = <27>;
-// };
+&rgb_ug {
+    chain-length = <27>;  // Change to your real per-half count if different
+};
