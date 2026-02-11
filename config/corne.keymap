@@ -35,5 +35,5 @@
 };
 
 &led_strip {
-    chain-length = <21>;  // Adjust to your actual LEDs per half (common: 21 for per-key RGB on Corne; test and increase to 27 if you have extra underglow)
+    chain-length = <21>;  // Common for Corne per-key RGB; change to 27 or your count if underglow adds extra LEDs
 };
